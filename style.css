@@ -10,7 +10,7 @@ html{
 .ff-text{
     font-family: "Playfair Display", serif;
 }
-.every-text,
+.navlink-message:hover,
 .navlink:hover,
 .touchecolor:hover,
 .border-color:hover{
@@ -39,6 +39,14 @@ html{
 }
 .active{
     color: #f5a637!important;
+}
+.form-input{
+    border-radius: inherit;
+    padding: 10px;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(13, 109, 253, 0)!important;
+    border: 1px solid #f5a637;
 }
 /* reset code and common code end here */
 
@@ -139,6 +147,12 @@ html{
     border-bottom: 3px solid #f5a637!important;
 }
 /* menu section code end here */
+
+/* hr section code start here */
+.hr-m{
+    margin-top: 4rem;
+}
+/* hr section code end here */
 /* carousel slider code start here */
 
 .carousel-img{
@@ -253,6 +267,12 @@ footer p{
     z-index: 0;
     background-size: cover;
 }
+.carrouselbtn1{
+    margin-left: -8rem;
+}
+.carrouselbtn2{
+    margin-right: -8rem;
+}
 
 /* gallery section code end here */
 
@@ -281,8 +301,23 @@ footer p{
     z-index: 0;
     background-size: cover;
 }
+.number-text{
+    font-size: 3rem;
+}
+.number-text sup{
+    font-size: 3rem;
+    position: relative;
+    top: -3px;
+}
 
 /* Reservation section code end here */
+
+
+/* news section code start here */
+.vh-75 {
+    height: 80vh;
+}
+/* news section code end here */
 
 
 
