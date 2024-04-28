@@ -1,0 +1,300 @@
+/* reset code and common code starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.ff-text{
+    font-family: "Playfair Display", serif;
+}
+.every-text,
+.navlink:hover,
+.touchecolor:hover,
+.border-color:hover{
+    color: #f5a637!important;
+    transition: .5s;
+}
+.nav-font-weight-normal{
+    font-weight: 500!important;
+    font-size: 0.9rem;
+}
+.navlink{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+.font-wb{
+    font-weight: 600;
+}
+.price-img{
+    width: 32%;
+}
+.price-img > img{
+    width: 100%;
+    height: 12vh;
+}
+.active{
+    color: #f5a637!important;
+}
+/* reset code and common code end here */
+
+/* navbar code starts here */
+.bgc-dark{
+    background: #ffffff!important;
+}
+.bgc-dark a{
+    color: #000;
+}
+.ff-family{
+    font-family: "Playfair Display",serif;
+}
+.second-nav{
+    display: flex;
+    justify-content: right;
+}
+.touchecolor{
+    font-size: 2rem;
+}
+.bd-top{
+    border: 2px solid #f5a637;
+    opacity: 1;
+}
+.fs-lg{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* navbar code end here */
+
+
+
+/* header banner section starts here */
+
+.banner-img{
+    background: url("img/1.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+}
+.banner-black{
+    background-color: #0b0b0b8e;
+    z-index: 11;
+}
+.banner-hight{
+    height: 100vh;
+}
+.w-btn{
+    width: 30%!important;
+}
+.banner-text{
+    color: #d2d1d1;
+}
+.banner-text-size{
+    font-size: 3rem;
+}
+.w-25{
+    width: 16% !important;
+}
+/* header banner section end here */
+
+
+/* main section code start here */
+
+.item-img img{
+    max-width: 70%;
+    height: auto;
+}
+.section-img{
+    opacity: .8;
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: url("img/19.jpg") no-repeat center;
+}
+.banne-white{
+    max-width: 100%;
+    height: 100vh;
+    background: #fffefe67;
+}
+.bg-date{
+    background-color: rgb(233 233 233) !important;
+}
+.form-btn{
+    color:#3b3b3b;
+    font-size: 0.8rem;
+    width: 20%;
+    margin: auto;
+}
+/* menu section code start here */
+.menu-bd{
+    border: none;
+}
+.menu-active > .active{
+    border: none;
+    border-bottom: 3px solid #f5a637!important;
+}
+/* menu section code end here */
+/* carousel slider code start here */
+
+.carousel-img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-img img{
+    width: 100%;
+}
+
+.carousel-caption{
+    position: static;
+    width: 60%;
+    padding: 10px 0 25px 0;
+    margin: auto;
+}
+.carousel-text{
+    font-size: 1rem;
+}
+/* carousel slider code end here */
+
+/* upcomeing section code start here */
+.banner-img-upcomeing{
+    background: url("img/8.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+}
+.py-10{
+    padding: 10rem 0;
+}
+.come-btn{
+    font-size: 13px;
+}
+/* upcoming section code end here */
+
+/* Newsletter section code start here */
+.subscribe-in{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.subscribe-btn{
+    border-radius: 0;
+    width: 20%;
+}
+/* Newsletter section code start here */
+/* main section code end here */
+
+
+/* footer code start here */
+.ft-header{
+    text-transform: uppercase;
+}
+footer p{
+    margin: 0;
+}
+.contact-email{
+    text-decoration: underline;
+}
+.f-text{
+    color: #a4a4a4;
+}
+
+/* footer code end here */
+
+
+/* about section code start here */
+.banner-img-about{
+    background: url("img/36.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -20%;
+    margin: -5rem 0 00 0;
+    z-index: 0;
+    background-size: cover;
+}
+/* Behind  section code start here */
+
+/* Behind  section code end here */
+/* about section code end here */
+
+
+/* contact section code start here */
+.banner-img-contact{
+    background: url("img/37.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -20%;
+    margin: -5rem 0 00 0;
+    z-index: 0;
+    background-size: cover;
+}
+
+/* contact section code end here */
+
+/* gallery section code start here */
+.banner-img-gallery{
+    background: url("img/23.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -20%;
+    margin: -5rem 0 00 0;
+    z-index: 0;
+    background-size: cover;
+}
+
+/* gallery section code end here */
+
+/* menu section code start here */
+.banner-img-menu{
+    background: url("img/25.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -20%;
+    margin: -5rem 0 00 0;
+    z-index: 0;
+    background-size: cover;
+}
+
+/* menu section code end here */
+
+/* Reservation section code start here */
+.banner-img-reservation{
+    background: url("img/32.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -20%;
+    margin: -5rem 0 00 0;
+    z-index: 0;
+    background-size: cover;
+}
+
+/* Reservation section code end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
