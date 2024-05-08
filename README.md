@@ -5,6 +5,4 @@
 
     <p><b>2. Responsive Design:</b>Bootstrap is built with a mobile-first approach, meaning it's designed to work well on all devices, from smartphones to desktops. Its grid system and responsive utility classes make it easy to create layouts that adapt to different screen sizes.</p>
 
-    <p><b>3. Customizable:</b>Bootstrap offers a wide range of pre-designed components, such as buttons, forms, navigation bars, and more. These components can be easily customized using Bootstrap's built-in variables and mixins, allowing developers to create unique designs while maintaining consistency and usability.</p>
-
     
